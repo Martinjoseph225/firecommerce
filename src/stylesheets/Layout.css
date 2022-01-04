@@ -1,0 +1,67 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.navbar {
+  background-color: #003f5c !important;
+}
+.nav-link {
+  color: #fff !important;
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+}
+.content {
+  padding-top: 80px;
+}
+.footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #003f5c;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+button {
+  background-color: #003f5c;
+  box-shadow: none;
+  border: 1px solid rgba(255, 255, 255, 0.651);
+  color: #fff;
+  padding: 5px;
+}
+button:hover {
+  background-color: tomato;
+}
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+.spinner-border {
+  height: 100px;
+  width: 100px;
+}
+a {
+  text-decoration: none;
+}
+input,
+select {
+  height: 35px !important;
+}
+#uncontrolled-tab-example-tab-products {
+  color: black !important;
+}
+.nav-item button {
+  color: black !important;
+}
+.nav-tabs {
+  background-color: cadetblue;
+}
