@@ -55,6 +55,7 @@ const CartPage = () => {
       toast.error("Order Failed");
     }
   };
+
   return (
     <Layout loading={loading}>
       <table className="table mt-3">
