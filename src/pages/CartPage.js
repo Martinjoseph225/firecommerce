@@ -25,9 +25,9 @@ const CartPage = () => {
   useEffect(() => {
     let temp = 0;
     cartItems.forEach((cartItems) => {
-      temp = temp + cartItems.price;
+      temp = temp + parseInt(cartItems.price);
     });
-    setTotalAmount(parseInt(temp));
+    setTotalAmount(temp);
   }, [cartItems]);
   useEffect(() => {
     localStorage.setItem("cartItems", JSON.stringify(cartItems));
